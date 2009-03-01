@@ -1,7 +1,7 @@
 To install this bundle, paste the following into the terminal:
 
 cd ~/"Library/Application Support/TextMate/Bundles/"
-git clone git://github.com/kevin/pig.tmbundle "Pig.tmbundle"
+git clone git://github.com/kevinweil/pig.tmbundle "Pig.tmbundle"
 osascript -e 'tell app "TextMate" to reload bundles'
 
 Enjoy, and please help me improve it!
