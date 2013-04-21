@@ -13,7 +13,7 @@
 	<array>
 		<dict>
 			<key>match</key>
-                        <string>\b(?i:all|and|as|asc|by|cogroup|cross|debug|default_parallel|define|desc|describe|distinct|dump|explain|filter|flatten|foreach|generate|group|if|illustrate|inner|into|is|job.name|join|limit|load|mapreduce|matches|not|null|or|order|outer|parallel|register|sample|set|split|store|stream|stream.skippath|through|union|using)\b</string>
+                        <string>\b(?i:all|and|as|asc|by|cube|cogroup|cross|debug|default_parallel|define|dense|desc|describe|distinct|dump|explain|filter|flatten|foreach|generate|group|if|illustrate|inner|into|is|job.name|join|limit|load|mapreduce|matches|not|null|or|order|outer|parallel|rank|register|sample|set|split|store|stream|stream.skippath|through|union|using)\b</string>
 			<key>name</key>
 			<string>keyword.operator.pig</string>
 		</dict>
@@ -64,7 +64,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(bag|bytearray|chararray|double|float|int|long|map|tuple)\b</string>
+			<string>\b(bag|bytearray|boolean|chararray|datetime|double|float|int|long|map|tuple)\b</string>
 			<key>name</key>
 			<string>constant.language.pig</string>
 		</dict>
