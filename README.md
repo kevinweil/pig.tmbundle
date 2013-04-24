@@ -7,10 +7,10 @@ To install this bundle, paste the following into the terminal:
 
 If you are using Textmate 2:
 
-    mkdir -p ~/"Library/Application Support/TextMate/Bundles/"
-    cd ~/"Library/Application Support/TextMate/Bundles/"
+    mkdir -p ~/"Library/Application Support/Avian/Bundles"
+    cd ~/"Library/Application Support/Avian/Bundles"
+    if [ -d Pig.tmbundle ]; then rm -rf Pig.tmbundle; fi
     git clone git://github.com/kevinweil/pig.tmbundle "Pig.tmbundle"
-    open Pig.tmbundle/ -a TextMate.app
 
 
 Enjoy, and please help me improve it!
